@@ -229,8 +229,8 @@ img {
 .coin__title {
   display: block;
   margin-left: 8px;
-    min-width: 160px;
-text-align: left;
+  min-width: 160px;
+  text-align: left;
 }
 
 .coin__symbol {
@@ -247,7 +247,17 @@ text-align: left;
   background-color: #313843;
 
   .navbar {
-    background-color: #1F2022;
+    background-color: #1f2022;
     border: none;
   }
+}
+
+select {
+  margin: 50px auto;
+  height: 30px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: grey;
 }
